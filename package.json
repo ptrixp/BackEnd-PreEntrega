@@ -1,15 +1,16 @@
 {
-  "name": "preentrega",
+  "name": "backend-preentrega-main",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon src/app.js"
+    "test": "echo \"Error: no test specified\" && exit 1",    
+    "start": "nodemon src/app.js "
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "Se desarrollará un servidor que contenga los endpoints y servicios necesarios para gestionar los productos y carritos de compra para tu API.",
   "dependencies": {
     "express": "^4.19.2"
   },

@@ -12,5 +12,6 @@ npm install -y
 ```
 Para desplegar el proyecto
 ```bash
-npm run dev
+npm run dev //v1
+npm start   //v2
 ```
